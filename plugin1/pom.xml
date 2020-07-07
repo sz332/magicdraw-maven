@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.acme.magicdraw</groupId>
+		<artifactId>parent</artifactId>	
+		<version>1.0.0</version>
+	</parent>
+
+	<artifactId>myplugin1</artifactId>
+	<name>Magicdraw test plugin</name>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<build>
+		<finalName>myplugin1</finalName>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>refobject</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>emf-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>jide-action</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>md_common_api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>ecore</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>foundation</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>uml2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>md_api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nomagic.magicdraw</groupId>
+			<artifactId>md</artifactId>
+		</dependency>
+	</dependencies>
+</project>
