@@ -15,7 +15,7 @@ To setup the Magicdraw/Cameo modeler folder, set magicdraw.home property in pom.
 
 To add a new plugin 
   - create a new maven module
-  - re-use the pom.xml from plugin1
+  - re-use the pom.xml from folder plugin1
   - extend the list of modules in the parent pom  
 
 # Building
