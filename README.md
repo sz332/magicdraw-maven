@@ -18,6 +18,11 @@ To add a new plugin
   - re-use the pom.xml from plugin1
   - extend the list of modules in the parent pom  
 
+# Building
+
+ - Install maven
+ - Execute `mvn package`
+
 ## Known limitations
 
 The build must be tailored to local install. It might happen, that the jar file's name is different because
